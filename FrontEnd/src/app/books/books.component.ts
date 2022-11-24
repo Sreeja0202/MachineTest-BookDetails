@@ -32,7 +32,7 @@ export class BooksComponent implements OnInit {
       authorName: ['', [Validators.required]],
       publishedYear: ['', [Validators.required]],
       bookPrice: ['', [Validators.required]],
-      bookStatus: ['', [Validators.required]],
+      bookStatus: 1,
     });
   }
 
